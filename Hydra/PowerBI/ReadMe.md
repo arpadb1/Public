@@ -25,7 +25,8 @@ You can open the reports with two different options:
     ![Enter log analytics id](https://github.com/arpadb1/Public/blob/main/Hydra/img/LogAnaliticsPowerBIDesktop1.png)
 
 4. Perform authentication using organizational account with **OAuth2** as the authentication method for your Log Analytics workspace.  
-
+***Note:**  
+The account connection to Log Analitics workspace must have at least Log Analytics Reader or Microsoft Sentinel Reader in order to pull data.
 5. After authentication completed, the data will be loaded.  
 ***Note:**  
 You visualize only your data if the data already available at the Log Analytics workspace. For further details on data source check the Data Sources section.
